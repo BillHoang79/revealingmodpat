@@ -1,0 +1,84 @@
+body {
+	background: #fafafa;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #333;
+}
+
+input {
+	zoom: 2;
+	border: 2px solid #000;
+	border-radius: 4px;
+}
+
+button {
+	zoom: 2;
+	background-color: #5bc0de;
+	border: 1px solid #999;
+	border-radius: 4px;
+	padding: 1px 5px;
+}
+
+button.active {
+	background-color: rgb(165, 227, 158);
+}
+
+#peopleModule {
+	text-align: center;
+}
+
+#peopleModule ul {
+	padding: 0;
+}
+
+#peopleModule li {
+	display: inline-block;
+	list-style-type: none;
+	background: #98ec9b;
+	border-radius: 5px;
+	padding: 3px 8px;
+	margin: 5px 0;
+	width: 200px;
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+
+#peopleModule li:hover {
+	opacity: 1;
+}
+
+#peopleModule li span {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#peopleModule li i {
+	cursor: pointer;
+	float: right;
+	font-style: normal;
+	padding: 2px 4px;
+	font-size: 60%;
+	color: #000;
+	font-weight: bold;
+	border-radius: 20px;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+	margin-top: 3px;
+}
+
+#peopleModule li i:hover {
+	cursor: pointer;
+	float: right;
+	font-style: normal;
+	padding: 2px 4px;
+	font-size: 60%;
+	color: #000;
+	font-weight: bold;
+	border-radius: 20px;
+	opacity: 0.7;
+	transition: opacity 0.3s;
+	margin-top: 3px;
+}
